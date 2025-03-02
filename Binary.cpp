@@ -109,10 +109,10 @@ int main() {
                 cout << "\033[1;34mEnter Your Number: \033[0m";
             } else {
                 cout << "\n\033[1;36mResult: \033[0m\n" << endl;
-                cout << "\033[1;32m○ Decimal: \033[0m" << decimal << endl;
-                cout << "\033[1;32m○ Binary: \033[0m" << decimalToBinary(decimal) << endl;
-                cout << "\033[1;32m○ Octal: \033[0m" << decimalToOctal(decimal) << endl;
-                cout << "\033[1;32m○ Hexadecimal: \033[0m" << decimalToHexadecimal(decimal) << endl;
+                cout << "\033[1;32mDecimal: \033[0m" << decimal << endl;
+                cout << "\033[1;32mBinary: \033[0m" << decimalToBinary(decimal) << endl;
+                cout << "\033[1;32mOctal: \033[0m" << decimalToOctal(decimal) << endl;
+                cout << "\033[1;32mHexadecimal: \033[0m" << decimalToHexadecimal(decimal) << endl;
                 cout << "\n\033[1;36mTry Another Number: \033[0m";
             }
         }
